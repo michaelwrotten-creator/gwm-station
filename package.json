@@ -7,6 +7,7 @@
     "dev:client": "npm --prefix client run dev",
     "dev:server": "npm --prefix server run dev",
     "build": "npm --prefix client run build",
+    "build:production": "npm --prefix client install && npm --prefix server install && npm run build",
     "preview": "npm --prefix client run preview",
     "start": "npm --prefix server run start"
   }
